@@ -1,11 +1,11 @@
 import * as React from 'react'
 import Head from 'next/head'
-type Page = "Home "
+type Page = "Home"
 type Props = {
     title?: string,
     page?: Page
   }
-  
+
   const Layout: React.FunctionComponent<Props> = ({ children, title = 'Quizy', page = "Home"  }) => (
     <div>
        <Head>
@@ -30,7 +30,7 @@ type Props = {
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet"/>
-	
+
 	{/* <!-- Animate.css --> */}
 	<link rel="stylesheet" href="/static/css/animate.css"/>
 	{/* <!-- Icomoon Icon Fonts--> */}
@@ -47,7 +47,7 @@ type Props = {
 	{/* <!-- Owl Carousel --> */}
 	<link rel="stylesheet" href="/static/css/owl.carousel.min.css"/>
 	<link rel="stylesheet" href="/static/css/owl.theme.default.min.css"/>
-	
+
 	{/* <!-- Flaticons  --> */}
 	<link rel="stylesheet" href="/static/fonts/flaticon/font/flaticon.css"/>
 
@@ -103,7 +103,7 @@ type Props = {
                                 <li><a href="about">About</a></li>
                                 <li><a href="contact">Contact</a></li>
                                 {/* other menu */}
-                                
+
                                 {/* <li className="has-dropdown">
 									<a href="courses">Courses</a>
 									<ul className="dropdown">
@@ -114,10 +114,10 @@ type Props = {
 										<li><a href="#">WordPress</a></li>
 									</ul>
 								</li>
-								
+
 								<li><a href="event">Events</a></li>
 								<li><a href="news">News</a></li> */}
-								
+
 								<li className="btn-cta"><a href="#"><span>Login</span></a></li>
 							</ul>
 						</div>
@@ -234,7 +234,7 @@ type Props = {
 								<small className="block">&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</small><br> 
+</small><br>
 								<small className="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a>, <a href="http://pexels.com/" target="_blank">Pexels</a></small>
 							</p>
 						</div>
@@ -247,7 +247,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<div className="gototop js-top">
 		<a href="#" className="js-gotop"><i className="icon-arrow-up2"></i></a>
 	</div>
-	
+
 	{/* <!-- jQuery --> */}
 	<script src="/static/js/jquery.min.js"></script>
 	{/* <!-- jQuery Easing --> */}
