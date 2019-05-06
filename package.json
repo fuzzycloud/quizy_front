@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "type-check": "tsc",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@types/next": "^8.0.3",
